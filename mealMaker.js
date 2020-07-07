@@ -62,5 +62,4 @@ menu.addDishToCourse('appetizers', 'tiramisu', 5)
 menu.addDishToCourse('appetizers', 'tres leches', 5)
 
 // these tests aren't working...
-console.log(menu.appetizers())
 menu.generateRandomMeal();
