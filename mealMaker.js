@@ -30,10 +30,9 @@ const menu = {
       } 
     },
     addDishToCourse(courseName, dishName, dishPrice){
-      const dish = {
-        name: dishName,
-        price: dishPrice,
-      }
+        const dish ={name: dishName,
+            price: dishPrice,}; 
+        
       return this._courses[courseName].push(dish);
     },
     getRandomDishFromCourse(courseName){
@@ -62,4 +61,6 @@ menu.addDishToCourse('appetizers', 'ice cream', 3)
 menu.addDishToCourse('appetizers', 'tiramisu', 5)
 menu.addDishToCourse('appetizers', 'tres leches', 5)
 
+// these tests aren't working...
+console.log(menu.appetizers())
 menu.generateRandomMeal();
