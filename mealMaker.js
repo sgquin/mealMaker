@@ -31,9 +31,12 @@ const menu = {
     },
     addDishToCourse(courseName, dishName, dishPrice){
         const dish ={name: dishName,
-            price: dishPrice,}; 
+            price: dishPrice,
+        }; 
         
-      return this._courses[courseName].push(dish);
+        this._courses[courseName].push(dish);
+        /*added this line for test*/
+        return this._courses[courseName];
     },
     getRandomDishFromCourse(courseName){
       const dishes = this._courses[courseName];
@@ -51,11 +54,11 @@ const menu = {
 
 menu.addDishToCourse('appetizers', 'salad', 4)
 menu.addDishToCourse('appetizers', 'wings', 5)
-menu.addDishToCourse('appetizers', 'bread', 7)
+//test line to see if courses are added console.log(menu.addDishToCourse('appetizers', 'bread', 7))
 
 menu.addDishToCourse('mains', 'spaghetti', 18)
 menu.addDishToCourse('mains', 'steak', 25)
-menu.addDishToCourse('mains', 'salmon', 28)
+console.log(menu.addDishToCourse('mains', 'salmon', 28))
 
 menu.addDishToCourse('appetizers', 'ice cream', 3)
 menu.addDishToCourse('appetizers', 'tiramisu', 5)
