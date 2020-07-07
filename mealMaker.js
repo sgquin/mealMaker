@@ -54,7 +54,8 @@ const menu = {
 
 menu.addDishToCourse('appetizers', 'salad', 4)
 menu.addDishToCourse('appetizers', 'wings', 5)
-//test line to see if courses are added console.log(menu.addDishToCourse('appetizers', 'bread', 7))
+console.log(menu.addDishToCourse('appetizers', 'bread', 7))
+console.log(menu.getRandomDishFromCourse('appetizers'))
 
 menu.addDishToCourse('mains', 'spaghetti', 18)
 menu.addDishToCourse('mains', 'steak', 25)
