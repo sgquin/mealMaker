@@ -54,16 +54,16 @@ const menu = {
 
 menu.addDishToCourse('appetizers', 'salad', 4)
 menu.addDishToCourse('appetizers', 'wings', 5)
-menu.addDishToCourse('appetizers', 'bread', 7)
-menu.getRandomDishFromCourse('appetizers')
+console.log(menu.addDishToCourse('appetizers', 'bread', 7))
+console.log(menu.getRandomDishFromCourse('appetizers'))
 
 menu.addDishToCourse('mains', 'spaghetti', 18)
 menu.addDishToCourse('mains', 'steak', 25)
 console.log(menu.addDishToCourse('mains', 'salmon', 28))
 
-menu.addDishToCourse('desserts', 'ice cream', 3)
-menu.addDishToCourse('desserts', 'tiramisu', 5)
-menu.addDishToCourse('desserts', 'tres leches', 5)
+menu.addDishToCourse('appetizers', 'ice cream', 3)
+menu.addDishToCourse('appetizers', 'tiramisu', 5)
+menu.addDishToCourse('appetizers', 'tres leches', 5)
 
 // these tests aren't working...
-console.log(menu.generateRandomMeal());
+menu.generateRandomMeal();
