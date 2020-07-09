@@ -62,5 +62,4 @@ menu.addDishToCourse("desserts", "ice cream", 3);
 menu.addDishToCourse("desserts", "tiramisu", 5);
 menu.addDishToCourse("desserts", "tres leches", 5);
 
-// these tests aren't working...
 console.log(menu.generateRandomMeal());
