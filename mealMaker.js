@@ -58,8 +58,8 @@ menu.addDishToCourse("mains", "spaghetti", 18);
 menu.addDishToCourse("mains", "steak", 25);
 menu.addDishToCourse("mains", "salmon", 28);
 
-menu.addDishToCourse("desserts", "ice cream", 3);
-menu.addDishToCourse("desserts", "tiramisu", 5);
-menu.addDishToCourse("desserts", "tres leches", 5);
+menu.addDishToCourse("desserts", "fresh fruit cup", 3);
+menu.addDishToCourse("desserts", "blueberries and kefir", 5);
+menu.addDishToCourse("desserts", "problems", 5);
 
 console.log(menu.generateRandomMeal());
